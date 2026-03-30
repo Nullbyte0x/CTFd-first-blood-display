@@ -37,7 +37,7 @@ def _get_first_blood(challenge_id):
     # cheaters and ghosts don't get glory
     if user.hidden or user.banned:
         return None
-
+    # === TODO: Add simple logic to find the next eligable player if the first solve is hidden/banned. ===
     result = {
         "user_id": user.id,
         "user_name": user.name,
