@@ -17,6 +17,7 @@ Restart CTFd.
 Open any solved challenge → 🩸 badge appears with the first solver's name and timestamp.
 
 Works with all challenge types. Works in users mode and teams mode.
+![screenshot](./assets/img/preview.png)
 
 ## Docker
 
